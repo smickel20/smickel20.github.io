@@ -1,4 +1,4 @@
->[Second Page](https://smickel20.github.io/secondpage.html)
+[Second Page](https://smickel20.github.io/secondpage.html)
 #  ik stel me voor
 
 
