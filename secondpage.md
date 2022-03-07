@@ -1,5 +1,5 @@
 ---
-permalink: /secondpgae.md
+permalink: /secondpage.md
 ---
 
 
