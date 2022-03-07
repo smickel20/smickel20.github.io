@@ -1,5 +1,5 @@
 ---
-permalink: /secondpage.md
+permalink: /secondpage.html
 ---
 
 
