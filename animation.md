@@ -4,28 +4,32 @@ output: html_document
 runtime: shiny
 ---
 
-```{r, echo = FALSE}
-numericInput("n", 
- "How many cars?", 5)
-renderTable({
- head(cars, input$n)
-})
-```
-  <style>  
-    body
-    {
-    display : center;
-      margin-top: 100px;
-  margin-bottom: 100px;
-  margin-right: 150px;
-  margin-left: 80px;
-    }
-.hu__hu__ { animation: hu__hu__ infinite 2s ease-in-out }
-@keyframes hu__hu__ {
-    50% { transform: translateY(30px) }
-}
-</style>  
-<body>
-
-  <h1><div class="cssanimation hu__hu__"> Animations </div></h1>
-</body>
+    <div class="box">
+          
+        <img src=
+"https://media.geeksforgeeks.org/wp-content/uploads/20190912174307/qwe1.png" 
+            id="geeks" GFG="250" alt="Geeksforgeeks">
+    </div>
+    <hr>
+      
+    <button type="button" onclick="zoomin()">
+        Zoom-In
+    </button>
+      
+    <button type="button" onclick="zoomout()"> 
+        Zoom-Out
+    </button>
+      
+    <script type="text/javascript">
+        function zoomin() {
+            var GFG = document.getElementById("geeks");
+            var currWidth = GFG.clientWidth;
+            GFG.style.width = (currWidth + 100) + "px";
+        }
+          
+        function zoomout() {
+            var GFG = document.getElementById("geeks");
+            var currWidth = GFG.clientWidth;
+            GFG.style.width = (currWidth - 100) + "px";
+        }
+    </script>
