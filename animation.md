@@ -13,4 +13,4 @@ runtime: shiny
     <button type="button" onclick="zoomin()">Zoom-In</button>
       
     <button type="button" onclick="zoomout()"> Zoom-Out</button>
-            </div>
+     </div>
