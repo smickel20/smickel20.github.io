@@ -18,3 +18,10 @@ runtime: shiny
      
 </div>
 
+<img class="mySlides" src="https://media.geeksforgeeks.org/wp-content/uploads/20190912174307/qwe1.png">
+<img class="mySlides" src="https://media.geeksforgeeks.org/wp-content/uploads/20190912174307/qwe1.png">
+<img class="mySlides" src="https://media.geeksforgeeks.org/wp-content/uploads/20190912174307/qwe1.png">
+<img class="mySlides" src="https://media.geeksforgeeks.org/wp-content/uploads/20190912174307/qwe1.png">
+
+<button class="w3-button w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+<button class="w3-button w3-display-right" onclick="plusDivs(+1)">&#10095;</button>
