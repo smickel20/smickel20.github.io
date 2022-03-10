@@ -3,7 +3,7 @@ permalink: animation.html
 output: html_document
 runtime: shiny
 ---
-<div class="main-body">
+<div class="main-body" id="scroll">
 <script src="../js/script.js"></script>
 <link rel="stylesheet" type="text/css" href="../css/style.css"/>
 
