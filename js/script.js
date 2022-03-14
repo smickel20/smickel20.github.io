@@ -1,6 +1,7 @@
-let scroll = document.getElementById("scroll")
-scroll.onscroll = imgResize
+window.onscroll = function() {scrollFunction()};
 
-function imgResize(){
-    document.querySelector("scroll").style.transform = "scale(1.0)"
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("scroll").style.transform = "scale(1.0)";
+    }
 }

@@ -4,7 +4,7 @@ output: html_document
 runtime: shiny
 ---
 <div class="main-body" id="scroll">
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br>
 
 
 <script src="../js/script.js"></script>
