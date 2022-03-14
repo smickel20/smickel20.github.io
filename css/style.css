@@ -2,3 +2,6 @@
     transition: all .2s ease-in-out;
     transform: scale(0.5);
 }
+.animation{
+    display: table;
+}
