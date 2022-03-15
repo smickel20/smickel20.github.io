@@ -115,15 +115,10 @@ document.getElementById("demo").innerHTML = "Hello JavaScript";
 >- [ ] verander de kleuren van de titels
 ---
 
+
 <div id="scroll">
-    <div id="animation_out">
-        <img src="../assets/img/img1.jpg">
-    </div>
-    <div id="animation_out">
-        <img src="../assets/img/img1.jpg">
-    </div>
-    <div id="animation_out">
-        <img src="../assets/img/img1.jpg">
-    </div>
+   <img src="assets/img/img1.jpg">
+    <img src="assets/img/img2.jpg">
+    <img src="assets/img/img3.jpg">
 </div>
 
