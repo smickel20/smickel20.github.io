@@ -1,7 +1,8 @@
 img {
     transition: all .2s ease-in-out;
-    transform: scale(0.125);
+    transform: scale(0.2);
 }
 .scroll{
-    display: block;
+    display: inline-block;
+    align-content: baseline;
 }
