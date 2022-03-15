@@ -5,3 +5,6 @@ img {
 .scroll{
     display: inline-block;
 }
+.animated{
+    transform: scale(0.75);
+}
