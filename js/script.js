@@ -7,6 +7,7 @@ window.addEventListener("resize", adjustHeightVars);
 window.addEventListener("scroll", fadeBox);
 
 function fadeBox () {
+    console.log("fadebox")
     var x = pics.offsetTop - half;
     var y = window.pageYOffset;
     if (y >= x) {
