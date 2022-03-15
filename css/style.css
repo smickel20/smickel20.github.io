@@ -1,5 +1,5 @@
 .myimg{
-    transition: all .2s ease-in-out;
+    transition: all .8s ease-in-out;
     transform: scale(0.5);
 }
 .scroll{
