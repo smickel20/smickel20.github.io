@@ -31,3 +31,95 @@
         transform: translateY(0);
     }
 }
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+.box {
+    margin: 50px auto;
+    height: 300px;
+    width: 450px;
+}
+
+#one {
+    background-color: gray;
+}
+
+#two {
+    background-color: blue;
+}
+
+#three {
+    background-color: red;
+}
+
+#four {
+    background-color: green;
+}
+
+#pics {
+    width: 1200px;
+    min-height: 200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.pic {
+    width: 300px;
+    height: 300px;
+    background-color:red;
+    margin: 50px;
+    opacity: 0;
+}
+
+.one {
+    animation-delay: none;
+}
+
+.two {
+    animation-delay: 200ms;
+}
+
+.three {
+    animation-delay: 400ms;
+}
+
+.four {
+    animation-delay: 600ms;
+}
+
+.five {
+    animation-delay: 800ms;
+}
+
+.six {
+    animation-delay: 1000ms;
+}
+
+.fadein {
+    animation-name: fadein;
+    animation-fill-mode: both;
+    animation-duration: 350ms;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes fadein {
+    0% {
+        opacity: 0;
+        transform: translateY(50%);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

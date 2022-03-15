@@ -1,4 +1,4 @@
-var pics = document.getElementById("img");
+var pics = document.getElementById("pics");
 
 var height,
     half;
@@ -10,7 +10,7 @@ function fadeBox () {
     var x = pics.offsetTop - half;
     var y = window.pageYOffset;
     if (y >= x) {
-        $(".img_1").addClass("fadein");
+        $(".pic").addClass("fadein");
     }
 }
 

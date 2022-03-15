@@ -120,3 +120,21 @@ document.getElementById("demo").innerHTML = "Hello JavaScript";
    <div id="img_1"><img src="assets/img/img1.jpg" id="myimg"></div>
 </div>
 
+<div id="one" class="box"></div>
+
+<div id="two" class="box"></div>
+
+<div id="three" class="box"></div>
+
+<div id="four" class="box"></div>
+
+<div id="pics">
+
+	<div class="pic one"></div>
+	<div class="pic two"></div>
+	<div class="pic three"></div>
+	<div class="pic four"></div>
+	<div class="pic five"></div>
+	<div class="pic six"></div>
+
+</div>
