@@ -117,13 +117,13 @@ document.getElementById("demo").innerHTML = "Hello JavaScript";
 
 <div id="scroll">
     <div id="animation_out">
-        <img src="../assest/img/img1.jpg">
+        <img src="../assets/img/img1.jpg">
     </div>
     <div id="animation_out">
-        <img src="../assest/img/img1.jpg">
+        <img src="../assets/img/img1.jpg">
     </div>
     <div id="animation_out">
-        <img src="../assest/img/img1.jpg">
+        <img src="../assets/img/img1.jpg">
     </div>
 </div>
 
