@@ -15,6 +15,7 @@ function fadeBox () {
 }
 
 function adjustHeightVars() {
+    console.log("scrolling")
     height = window.innerHeight;
     half = height * 0.35;
 }
