@@ -3,5 +3,5 @@ img {
     transform: scale(0.5);
 }
 .scroll{
-    display: table;
+    display: block;
 }
