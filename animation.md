@@ -116,7 +116,7 @@ document.getElementById("demo").innerHTML = "Hello JavaScript";
 ---
 
 
-<div id="scroll">
-   <img src="assets/img/img1.jpg" id="myimg">
+<div id="imgs">
+   <div id="img_1"><img src="assets/img/img1.jpg" id="myimg"></div>
 </div>
 

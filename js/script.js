@@ -1,7 +1,22 @@
-window.onscroll = function() {myFunction()};
+var pics = document.getElementById("img");
 
-function myFunction() {
-    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
-        document.getElementById("myimg").className = "animated";
+var height,
+    half;
+
+window.addEventListener("resize", adjustHeightVars);
+window.addEventListener("scroll", fadeBox);
+
+function fadeBox () {
+    var x = pics.offsetTop - half;
+    var y = window.pageYOffset;
+    if (y >= x) {
+        $(".img_1").addClass("fadein");
     }
 }
+
+function adjustHeightVars() {
+    height = window.innerHeight;
+    half = height * 0.35;
+}
+
+adjustHeightVars();
