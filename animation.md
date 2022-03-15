@@ -118,7 +118,5 @@ document.getElementById("demo").innerHTML = "Hello JavaScript";
 
 <div id="scroll">
    <img src="assets/img/img1.jpg">
-    <img src="assets/img/img2.jpg">
-    <img src="assets/img/img3.jpg">
 </div>
 
