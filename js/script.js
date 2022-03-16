@@ -9,7 +9,7 @@ window.addEventListener("load",   function (){
 
     function fadeBox () {
         console.log("fadebox")
-        var y = pics.offsetTop - 900;
+        var y = pics.offsetTop - 1100;
         var x = window.pageYOffset;
         console.log(x + "-" + y)
         if (x >= y) {
