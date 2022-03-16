@@ -1,24 +1,26 @@
-var pics = document.getElementById("pics");
+window.addEventListener("load",   function (){
+    var pics = document.getElementById("imgs");
+    console.log(pics)
+    var height,
+        half;
 
-var height,
-    half;
+    window.addEventListener("resize", adjustHeightVars);
+    window.addEventListener("scroll", fadeBox);
 
-window.addEventListener("resize", adjustHeightVars);
-window.addEventListener("scroll", fadeBox);
-
-function fadeBox () {
-    console.log("fadebox")
-    var x = pics.offsetTop - half;
-    var y = window.pageYOffset;
-    if (y >= x) {
-        $(".pic").addClass("fadein");
+    function fadeBox () {
+        console.log("fadebox")
+        var y = pics.offsetTop - 900;
+        var x = window.pageYOffset;
+        console.log(x + "-" + y)
+        if (x >= y) {
+            pics.classList.add("fadein")
+        }
     }
-}
 
-function adjustHeightVars() {
-    console.log("scrolling")
-    height = window.innerHeight;
-    half = height * 0.35;
-}
+    function adjustHeightVars() {
+        console.log("scrolling")
+        height = window.innerHeight;
+    }
 
-adjustHeightVars();
+    adjustHeightVars();
+})
