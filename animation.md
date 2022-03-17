@@ -119,11 +119,3 @@ document.getElementById("demo").innerHTML = "Hello JavaScript";
 <div id="imgs">
    <div id="img_1"><img src="assets/img/img1.jpg" id="myimg"></div>
 </div>
-
-#Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempor turpis vel libero sodales, a molestie lectus sodales. Nulla sollicitudin, mauris sed maximus blandit, sem nisi fermentum nunc, at porta arcu augue nec eros. Suspendisse eu pellentesque leo. Donec pellentesque dui eros, sed aliquam nulla hendrerit non. Sed in vulputate enim. Sed blandit diam eu sapien lacinia posuere. Vestibulum dapibus nibh vel odio gravida, nec pulvinar sapien vestibulum. Donec sed mollis enim. Integer vitae ultricies augue, eget pellentesque lectus. Mauris non rutrum purus. Nulla consequat velit id tortor lacinia mattis. Suspendisse dignissim sed odio at laoreet. Vivamus tincidunt quam erat, ut viverra massa malesuada congue.
-
-    Nam nec lectus quis nisl lobortis faucibus ut vitae odio. Sed lorem lorem, dictum auctor fringilla imperdiet, laoreet sit amet velit. Nulla id dui tempor, tristique urna eu, dapibus mi. Sed pharetra et nunc ac tristique. Donec a est ex. Interdum et malesuada fames ac ante ipsum primis in faucibus. Praesent commodo nibh ac mauris euismod, eget rutrum tortor convallis. Vivamus mi felis, varius ac lacus nec, viverra molestie massa. Donec euismod dolor eu lacus tincidunt tincidunt. Nam nec feugiat lorem.
-
-    Proin ut odio a sem tincidunt sodales sit amet quis dui. Integer volutpat dui non lacus consequat, eu aliquam lectus pulvinar. Suspendisse justo felis, blandit quis pretium et, posuere sed massa. Pellentesque facilisis sem id metus lobortis, vitae euismod felis gravida. Donec vitae sagittis ante, nec varius enim. Vestibulum hendrerit eros nec augue dictum aliquet. Nunc ullamcorper libero in arcu congue aliquam. Aliquam erat volutpat. Etiam vitae tincidunt sapien, eu porta nulla. Quisque fringilla nunc diam, hendrerit porta erat semper ut. Etiam tellus quam, porttitor nec dapibus eu, tincidunt in massa. Maecenas pretium neque vel ante venenatis tempus.
-
-    Phasellus sollicitudin risus quis lobortis lacinia. Duis ut pulvinar neque. Morbi sit amet augue sed risus imperdiet sollicitudin nec in nulla. Aenean in facilisis ex, vel rhoncus diam. Duis volutpat convallis orci, vel gravida augue
