@@ -1,8 +1,6 @@
 window.addEventListener("load",   function (){
     var pics = document.getElementById("imgs");
-    console.log(pics)
-    var height,
-        half;
+    var height
 
     window.addEventListener("resize", adjustHeightVars);
     window.addEventListener("scroll", fadeBox);
