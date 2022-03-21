@@ -1,10 +1,9 @@
 ---
 permalink: animation.html
 output: html_document
-runtime: shiny
 ---
-<script src="../js/script.js"></script>
-<link rel="stylesheet" type="text/css" href="../css/style.css"/>
+<script src="js/script.js"></script>
+<link rel="stylesheet" type="text/css" href="css/style.css"/>
 [Second Page](https://smickel20.github.io/secondpage.html)
 [animation](https://smickel20.github.io/animation.html)
 #  ik stel me voor
@@ -103,10 +102,10 @@ document.getElementById("demo").innerHTML = "Hello JavaScript";
 ---
 ### Data
 
-| id  | Name  | Age |
------|-------|-----|
-| 2   | peter | 36  |
-| 6   | jan   | 24  |
+ | id  | Name  | Age |
+ -----|-------|-----|
+ | 2   | peter | 36  |
+ | 6   | jan   | 24  |
 
 ---
 ### Takenlijst
@@ -117,7 +116,7 @@ document.getElementById("demo").innerHTML = "Hello JavaScript";
 
 
 <div id="imgs">
-   <div id="img_1"><img src="assets/img/img1.jpg" id="myimg"></div>
+   <div id="img_1"><img src="assets/img/img1.jpg" alt="ict foto" id="myimg"></div>
 </div>
 
 # dit is een animatie
