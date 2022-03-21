@@ -119,3 +119,5 @@ document.getElementById("demo").innerHTML = "Hello JavaScript";
 <div id="imgs">
    <div id="img_1"><img src="assets/img/img1.jpg" id="myimg"></div>
 </div>
+
+# dit is een animatie
