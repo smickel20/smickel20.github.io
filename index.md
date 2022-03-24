@@ -1,3 +1,7 @@
+---
+permalink: index.html
+output: html_document
+---
 [Second Page](https://smickel20.github.io/secondpage.html)
 [animation](https://smickel20.github.io/animation.html)
 #  ik stel me voor
