@@ -16,7 +16,7 @@ output: html_document
 
 ---
 
-### Welke talen ken ik.
+### Welke talen ken ik
 1. `HTML`
 2. `CSS`
 3. `PHP`
