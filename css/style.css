@@ -8,10 +8,10 @@
     flex-wrap: wrap;
 }
 .img_1 {
-transform: scale(0.25);
     background-color:red;
     margin: 50px;
     opacity: 0;
+    display: block;
 }
 .fadein {
     transform:scale(0.5);
